@@ -27,6 +27,9 @@ A simple script to attack AD with CVE-2021-42287/CVE-2021-42278 exploits automat
  - Invoke-GoldenTicket (Just krbtgt hashes needed)
  ![image](https://user-images.githubusercontent.com/30458572/161314913-d8f1b489-b778-4a8b-9589-a7d69d2b72ce.png)
  ![image](https://user-images.githubusercontent.com/30458572/161314959-86eb3237-382a-401e-bbb9-eae8a09da42f.png)
+   
+   Golden ticket also injected into memory and generate to file.  
+   ![image](https://user-images.githubusercontent.com/30458572/161317716-b5407954-4a03-43b7-be2d-c50278c504aa.png)
 
  - RemoveMachineAccount (Need domain admins privileges, also you can do this after create golden ticket.)  
  ![image](https://user-images.githubusercontent.com/30458572/161236648-8ce72238-2d48-4794-97d0-5d5a667cc152.png)
