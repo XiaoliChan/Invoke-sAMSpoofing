@@ -31,7 +31,6 @@ function DCSync($command){
 }
 
 function ADSIHound($filter){
-    
     $currentDomain = [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain() | foreach {$_.GetDirectoryEntry()}
     $searcher = [ADSISearcher]"($($filter))"
     $searcher.SearchRoot = $currentDomain
