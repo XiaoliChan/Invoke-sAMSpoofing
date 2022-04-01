@@ -12,22 +12,26 @@ A simple script to attack AD with CVE-2021-42287/CVE-2021-42278 exploits automat
 
 ### Menu
  - Invoke-sAMSpooofing
- - GoldenTips
+ - Invoke-GoldenTicke
+ - Invoke-GoldenTips
  - RemoveMachineAccount 
- - Rubeus
+ - Invoke-Rubeus
+ - ADSIHound
+ - Invoke-DCSync
 
 ### Screenshots
  - Invoke-sAMSpooofing  
  ![image](https://user-images.githubusercontent.com/30458572/161235503-67e882c1-32d4-479c-8f3b-faade0c39af6.png)
- ![image](https://user-images.githubusercontent.com/30458572/161235720-36e0946f-48a3-4781-a968-e9c03a0413b7.png)
+ ![image](https://user-images.githubusercontent.com/30458572/161314691-fbb6059b-5440-48c6-a80c-51452cd42af0.png)
 
- - GoldenTips  
- ![image](https://user-images.githubusercontent.com/30458572/161236408-13ed1968-fed0-444e-bc48-5ec263c35264.png)
+ - Invoke-GoldenTicket (Just krbtgt hashes needed)
+ ![image](https://user-images.githubusercontent.com/30458572/161314913-d8f1b489-b778-4a8b-9589-a7d69d2b72ce.png)
+ ![image](https://user-images.githubusercontent.com/30458572/161314959-86eb3237-382a-401e-bbb9-eae8a09da42f.png)
 
  - RemoveMachineAccount (Need domain admins privileges, also you can do this after create golden ticket.)  
  ![image](https://user-images.githubusercontent.com/30458572/161236648-8ce72238-2d48-4794-97d0-5d5a667cc152.png)
  
- - Rubeus  
+ - Invoke-Rubeus  
  ![image](https://user-images.githubusercontent.com/30458572/161241261-b5e5f4f8-29d9-4412-ae3e-1298d45b5625.png)
 
 ### References
