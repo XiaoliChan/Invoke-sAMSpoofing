@@ -23,7 +23,7 @@ A simple script to attack AD with CVE-2021-42287/CVE-2021-42278 exploits automat
  - GoldenTips  
  ![image](https://user-images.githubusercontent.com/30458572/161236408-13ed1968-fed0-444e-bc48-5ec263c35264.png)
 
- - RemoveMachineAccount (Need domain admins privilge, also you can do this after create golden ticket.)  
+ - RemoveMachineAccount (Need domain admins privileges, also you can do this after create golden ticket.)  
  ![image](https://user-images.githubusercontent.com/30458572/161236648-8ce72238-2d48-4794-97d0-5d5a667cc152.png)
 
 ### References
