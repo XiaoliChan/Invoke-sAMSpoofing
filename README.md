@@ -14,6 +14,7 @@ A simple script to attack AD with CVE-2021-42287/CVE-2021-42278 exploits automat
  - Invoke-sAMSpooofing
  - GoldenTips
  - RemoveMachineAccount 
+ - Rubeus
 
 ### Screenshots
  - Invoke-sAMSpooofing  
@@ -25,6 +26,9 @@ A simple script to attack AD with CVE-2021-42287/CVE-2021-42278 exploits automat
 
  - RemoveMachineAccount (Need domain admins privileges, also you can do this after create golden ticket.)  
  ![image](https://user-images.githubusercontent.com/30458572/161236648-8ce72238-2d48-4794-97d0-5d5a667cc152.png)
+ 
+ - Rubeus  
+ ![image](https://user-images.githubusercontent.com/30458572/161241261-b5e5f4f8-29d9-4412-ae3e-1298d45b5625.png)
 
 ### References
  - [3gstudent: Retrieves all users ntlm hashes from AD](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8DCSync%E5%AF%BC%E5%87%BA%E5%9F%9F%E5%86%85%E6%89%80%E6%9C%89%E7%94%A8%E6%88%B7hash%E7%9A%84%E6%96%B9%E6%B3%95)
