@@ -48,7 +48,7 @@ function Invoke-GoldenTips{
     # Get domain sid
     $filter = "&(objectclass=domain)(distinguishedname=$($current_domain.GetDirectoryEntry().distinguishedName))"
     $results = ADSIHound($filter)
-    $rawsid = $results[0].properties.objectsid[0]
+    $rawsid = $results.properties.objectsid[0]
     $domainSID = (New-object System.Security.Principal.SecurityIdentifier($rawsid,0)).value
 
     # Get domain admins
