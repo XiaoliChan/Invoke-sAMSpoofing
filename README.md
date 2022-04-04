@@ -12,7 +12,7 @@ A simple script to attack AD with CVE-2021-42287/CVE-2021-42278 exploits automat
 
 ### Menu
  - Invoke-sAMSpooofing
- - Invoke-GoldenTicke
+ - Invoke-GoldenTicket
  - Invoke-GoldenTips
  - RemoveMachineAccount 
  - Invoke-Rubeus
